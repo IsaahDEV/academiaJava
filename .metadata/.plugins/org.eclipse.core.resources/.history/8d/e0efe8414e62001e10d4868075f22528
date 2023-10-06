@@ -1,0 +1,13 @@
+package primeiroprojeto;
+
+public class PrimeiroPrograma {
+
+	public static void main(String[] args) {
+      System.out.println("Ola Mundo");
+      //system( ctrl+ espaço )
+      // ctrl + s ( salva projeto )
+      // ctrl + f11 ( roda o projeto )
+      // ctrl + / (comentario )
+	}
+
+}

@@ -1,0 +1,58 @@
+package primeiroprojeto;
+
+public class exerciolivro {
+
+
+
+public class Livro
+{
+    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
+    private int x;
+    private String titulo;
+    private String autor;
+    private int numPaginas;
+    
+    public Livro(String titulo, String autor, int numPaginas)
+    {
+        // inicializa variáveis de instância
+        this.titulo = titulo;
+        this.autor = autor;
+        this.numPaginas = numPaginas;
+    }
+
+    
+    public String getTitulo()
+    {
+        // escreva seu código aqui
+        return titulo;
+    }
+    public void setTitulo(){
+        this.titulo = titulo;
+    }
+    
+    public String getAutor()
+    {
+        // escreva seu código aqui
+        return autor;
+    }
+    public void setAutor(){
+        this.autor = autor;
+    }
+        public int getNumPaginas()
+    {
+        // escreva seu código aqui
+        return numPaginas;
+    }
+    public void setNumPaginas(int numPaginas){
+        this.numPaginas = numPaginas;
+    }
+    
+    public String toString (){
+        return "Livro{ " +
+            "titulo=" + titulo +   
+            "autor=" + autor +  
+            "numPaginas=" + numPaginas;
+        }
+    }
+}
+

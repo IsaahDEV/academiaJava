@@ -1,0 +1,10 @@
+package primeiroprojeto;
+
+public class primeiroexercico {
+
+	public static void main(String[] args) {
+		float values [] = {2,8,5,9,6};
+		System.out.println(values);
+	}
+
+}
